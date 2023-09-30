@@ -36,7 +36,7 @@ aside {
 }
 
 /* レスポンシブデザイン: 画面幅が小さい場合、article と aside をスタッキング */
-@media (max-width: 768px) {
+@media screen and　(max-width: 768px) {
     .wrapper1 {
         flex-direction: column;
     }
